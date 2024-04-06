@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc index.ts build --outpt public",
-    "start":"node index.js",
-    "dev": "nodemon --watch index.ts --exec ts-node index.ts",
+    "build": "tsc ./src/index.ts",
+    "start":"node ./src/index.js",
+    "dev": "nodemon --watch ./src/index.ts --exec ts-node ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
